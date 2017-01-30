@@ -20,12 +20,12 @@ $ docker pull jmilagrosoc4w/minerva.kafka
 
 Start a Kafka Broker:
 ```
-$ $ docker run -it --name kafka -p 9092:9092 --link zookeeper:zookeeper jmilagrosoc4w/minerva.kafka
+$ docker run -it --name kafka -p 9092:9092 --link zookeeper:zookeeper jmilagrosoc4w/minerva.kafka
 ```
 
 Start a Kafka Broker (Detached Mode):
 ```
-$ $ docker run -d --name kafka -p 9092:9092 --link zookeeper:zookeeper jmilagrosoc4w/minerva.kafka
+$ docker run -d --name kafka -p 9092:9092 --link zookeeper:zookeeper jmilagrosoc4w/minerva.kafka
 ```
 
 Display Broker Log:
